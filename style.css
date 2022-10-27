@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 15px;
+    font-size: 90%;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0,0,0,.5);
+}
+
+a{
+    background-color: rgba(81, 81, 81, 0.7);
+    border: 3px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+    padding: 3%;
+}
+
+a:hover{
+    background-color: rgb(240, 248, 255, 0.7);
+    transition: 0.2s;
+    color: black;
+}
+
+.menu{
+    text-align: center;
+    word-spacing: 50px;
+    padding: 20%;
+}
+
+.nav{
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    border: 2px dotted azure;
+    background-color: rgba(0,0,0,.5);
+}
+
+input{
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+}
+
+button{
+    border-radius: 4px;
+    height: 25px;
+    width: 70px;
+}
+
+button:hover{
+    background-color: black;
+    transform: scale(1.2);
+    transition: 0.4s;
+    color: azure;
+}
+
+hr{
+    background-color: azure;
+    border-color: azure;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grid-container, .grid-container1, .grid-container2{
+    position: relative;
+    transform: translate(-55%,0%);
+    top: 50%;
+    left: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.box, .box1, .box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.grid-container{
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 61.5vh;
+    height: 61.5vh;
+    grid-gap: 35px;
+    margin: 2%;
+    background-color: rgba(0,0,0,.6);
+}
+
+.box{
+    background-color: rgba(230, 93, 34, 0.6);
+    height: 17vh;
+    width: 17vh;
+}
+
+.box:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: rgba(230, 93, 34);
+}
+
+.grid-container1{
+    padding: 8px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    width: 66vh;
+    height: 66vh;
+    grid-gap: 15px;
+    margin: 2%;
+    background-color: rgba(0,0,0,.6);
+
+}
+
+.box1{
+    background-color: rgb(65, 105, 225, 0.6);
+    height: 14vh;
+    width: 14vh;
+}
+
+.box1:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: rgb(65, 105, 225);
+}
+
+.grid-container2{
+    padding: 7px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    width: 75vh;
+    height: 75vh;
+    grid-gap: 16px;
+    margin: 1%;
+    background-color: rgba(0,0,0,.6);
+
+}
+
+.box2{
+    background-color: rgba(213, 32, 32, 0.6);
+    height: 10.5vh;
+    width: 10.5vh;
+}
+
+.box2:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: rgba(213, 32, 32);
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        height: 100vh;
+    }
+
+    .grid-container, .grid-container1, .grid-container2{
+        top: 1%;
+    }
+
+    .grid-container2{
+        width: 67vh;
+        height: 67vh;
+        margin: 3%;
+        top: -1%;
+    }
+    
+    .box2{
+        font-size: medium;
+        height: 9vh;
+        width: 9vh;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .header{
+        font-size: 70%;
+        padding: 30px;
+    }
+
+    a{
+        font-size: small;
+        font-weight: 550;
+    }
+    
+    .menu{
+        text-align: center;
+        padding: 10%;
+        padding-top: 40%;
+        word-spacing: 30px;
+    }
+
+    .grid-container{
+        width: 49vh;
+        height: 49vh;
+        grid-gap: 25px;
+        margin: 5%;
+        top: 7%;
+    }
+    
+    .box{
+        font-size: larger;
+        height: 13vh;
+        width: 13vh;
+    }
+
+    .grid-container1{
+        width: 58vh;
+        height: 58vh;
+        grid-gap: 25px;
+        margin: 5%;
+        top: 5%;
+    }
+    
+    .box1{
+        font-size: larger;
+        height: 11vh;
+        width: 11vh;
+    }
+
+    .grid-container2{
+        width: 65vh;
+        height: 65vh;
+        grid-gap: 14px;
+        margin: 5%;
+    }
+}
