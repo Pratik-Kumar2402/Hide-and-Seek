@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body{
+    height: 100vh;
+}
+
 .header{
     padding: 15px;
     font-size: 90%;
@@ -162,9 +166,6 @@ hr{
 }
 
 @media screen and (max-width: 1200px){
-    body{
-        height: 100vh;
-    }
 
     .grid-container, .grid-container1, .grid-container2{
         top: 1%;
@@ -213,7 +214,7 @@ hr{
     }
     
     .box{
-        font-size: larger;
+        font-size: medium;
         height: 13vh;
         width: 13vh;
     }
@@ -227,7 +228,7 @@ hr{
     }
     
     .box1{
-        font-size: larger;
+        font-size: medium;
         height: 11vh;
         width: 11vh;
     }
@@ -262,39 +263,39 @@ hr{
     }
 
     .grid-container{
-        width: 50vh;
-        height: 50vh;
+        width: 42vh;
+        height: 42vh;
         top: 3%;
     }
     
     .box{
-        font-size: larger;
-        height: 13vh;
-        width: 13vh;
+        font-size: small;
+        height: 11vh;
+        width: 11vh;
     }
 
     .grid-container1{
-        width: 50vh;
-        height: 50vh;
+        width: 45vh;
+        height: 45vh;
         grid-gap: 18px;
         top: 4%;
     }
     
     .box1{
-        font-size: larger;
-        height: 10vh;
-        width: 10vh;
+        font-size: small;
+        height: 9vh;
+        width: 9vh;
     }
 
     .grid-container2{
-        width: 51vh;
-        height: 51vh;
+        width: 45vh;
+        height: 45vh;
         grid-gap: 11px;
     }
 
     .box2{
-        font-size: medium;
-        height: 7vh;
-        width: 7vh;
+        font-size: small;
+        height: 6vh;
+        width: 6vh;
     }
 }
