@@ -191,15 +191,17 @@ hr{
     }
 
     a{
+        letter-spacing: 3px;
         font-size: small;
-        font-weight: 550;
     }
     
     .menu{
         text-align: center;
-        padding: 10%;
-        padding-top: 40%;
-        word-spacing: 30px;
+        word-spacing: 10px;
+    }
+
+    input, button{
+        width: 50px;
     }
 
     .grid-container{
@@ -231,9 +233,68 @@ hr{
     }
 
     .grid-container2{
-        width: 65vh;
-        height: 65vh;
-        grid-gap: 14px;
+        width: 54vh;
+        height: 54vh;
+        grid-gap: 15px;
         margin: 5%;
+    }
+    
+    .box2{
+        font-size: medium;
+        height: 7vh;
+        width: 7vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    a{
+        letter-spacing: 3px;
+        padding: 3%;
+    }
+
+    .menu{
+        display: flex;
+        text-align: center;
+    }
+
+    input, button{
+        width: 50px;
+    }
+
+    .grid-container{
+        width: 50vh;
+        height: 50vh;
+        top: 3%;
+    }
+    
+    .box{
+        font-size: larger;
+        height: 13vh;
+        width: 13vh;
+    }
+
+    .grid-container1{
+        width: 50vh;
+        height: 50vh;
+        grid-gap: 18px;
+        top: 4%;
+    }
+    
+    .box1{
+        font-size: larger;
+        height: 10vh;
+        width: 10vh;
+    }
+
+    .grid-container2{
+        width: 51vh;
+        height: 51vh;
+        grid-gap: 11px;
+    }
+
+    .box2{
+        font-size: medium;
+        height: 7vh;
+        width: 7vh;
     }
 }
