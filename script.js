@@ -131,7 +131,7 @@ function compare2(){
         }
     }
     else if(randNo8 == guess2){
-        document.getElementById(guess1).style.backgroundImage = "url('skull.gif')";
+        document.getElementById(guess2).style.backgroundImage = "url('skull.gif')";
         document.getElementById(guess2).style.backgroundSize = "100%";
         var x = (score/value)*100;
         alert("You Lose!!! Your accuracy is : "+x);
@@ -202,7 +202,7 @@ function compare3(){
         }
     }
     else if(randNo12 == guess3){
-        document.getElementById(guess1).style.backgroundImage = "url('skull.gif')";
+        document.getElementById(guess3).style.backgroundImage = "url('skull.gif')";
         document.getElementById(guess3).style.backgroundSize = "100%";
         var x = (score/value)*100;
         alert("You Lose!!! Your accuracy is : "+x);
