@@ -77,7 +77,6 @@ hr{
 .grid-container, .grid-container1, .grid-container2{
     position: relative;
     transform: translate(-55%,0%);
-    top: 50%;
     left: 50%;
     display: grid;
     align-items: center;
@@ -145,9 +144,9 @@ hr{
     padding: 7px;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto;
-    width: 75vh;
-    height: 75vh;
-    grid-gap: 16px;
+    width: 73vh;
+    height: 73vh;
+    grid-gap: 15px;
     margin: 1%;
     background-color: rgba(0,0,0,.6);
 
